@@ -36,6 +36,7 @@ ul {
   height: 378px;
   background-image: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url('./img/logo-jordan.png') ;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
 }
 
@@ -74,6 +75,16 @@ ul {
 .itens img {
   background-color: #EBE9EA;
   padding: 50px 20px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+.itens img:hover {
+  border: 2px solid #873eff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .5s;
+  
 }
 
 .itens li {
