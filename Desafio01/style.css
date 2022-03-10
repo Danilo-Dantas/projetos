@@ -1,0 +1,98 @@
+input {
+  all: unset;
+}
+
+body {
+  font-family: 'Lexend Deca';
+  margin: 0;
+  font-weight: 400;
+  background-color: rgb(243,245,247);
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: 400;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(88deg,#574AE8 0%, #3EA1DB 100%);
+}
+
+.cabecalho {
+  position: relative;
+  height: 250px;
+  max-width: 900px;
+  margin: auto;
+  top: 40px;
+}
+
+.topo-textos {
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.topo-pesquisa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background: rgba(255,255,255, 0.2);
+  border-radius: 5px;
+  color: #FFFFFF;
+  gap: 20px;
+  margin-top: 70px;
+  padding: 0 25px;
+}
+
+.barra-pesquisa {
+  width: 900px;
+  height: 65px;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.icon-pesquisa {
+  width: 20px;
+  height: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.cont-principal {
+  display: grid;
+  width: 900px;
+  margin: 100px auto;
+  gap: 50px;
+
+}
+
+.div-noticia {
+  border: none;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.2);
+  padding: 20px;
+}
+
+.div-noticia h5 {
+  padding: 0 0 25px 0;
+  color: #717171;
+}
+
+.div-noticia p {
+  color: #717171;
+}
+
+.div-noticia-topo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#icon-coracao:hover {
+  cursor: pointer;
+}
