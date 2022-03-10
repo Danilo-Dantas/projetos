@@ -33,8 +33,7 @@ header {
 }
 
 .topo-pesquisa {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   align-items: center;
   background: rgba(255,255,255, 0.2);
   border-radius: 5px;
@@ -95,4 +94,18 @@ header {
 
 #icon-coracao:hover {
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 940px) {
+  .cont-principal, .cabecalho, .barra-pesquisa {
+    width: 70%;
+    margin: auto;
+  }
+  .cont-principal {
+    margin: 20px auto;
+  }
+  .topo-pesquisa {
+    gap: 0px;
+  }
 }
