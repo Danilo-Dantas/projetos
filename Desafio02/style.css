@@ -68,7 +68,7 @@ ul {
 
 .lista-produtos {
   max-width: 1440px;
-  margin: auto;
+  margin: 0 auto 100px;
 }
 
 .itens img {
