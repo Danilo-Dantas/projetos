@@ -10,6 +10,7 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
 }
 
 .cabecalho {
@@ -68,7 +69,7 @@ ul {
 }
 
 .lista-produtos {
-  max-width: 1440px;
+  max-width: 1600px;
   margin: 0 auto 100px;
 }
 
@@ -84,7 +85,6 @@ ul {
   border-radius: 10px;
   cursor: pointer;
   transition: .5s;
-  
 }
 
 .itens li {
@@ -106,4 +106,47 @@ ul {
   text-align: center;
   position: relative;
   top: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .itens ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .itens ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding-inline-start: 0;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .itens ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding-inline-start: 0;
+    margin: 0;
+  }
+  .itens li {
+    margin: auto;
+  }
+  .area-banner {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url('./img/logo-mobile.png') ;
+  }
+  .conteudo-banner {
+    padding: 80px 0;
+  }
+  .conteudo-banner h1 {
+    font-size: 26px;
+  }
+  .conteudo-banner p {
+    font-size: 14px;
+  }
 }
