@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-color: rgb(249,249,249);
+}
+
+h1,h2,h3,h4,h5 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Merriweather';
+  color: #2B2B2B;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Lato';
+  color: #555555;
+  font-size: 19px;
+}
+
+ul {
+  list-style: none;
+}
+
+.cabecalho {
+  width: 100%;
+  background-color: #D7D5FF;
+}
+
+.caixa-cabecalho {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.conteudo-cabecalho {
+  text-align: justify;
+}
+
+.conteudo-cabecalho p {
+  line-height: 32px;
+  padding: 5px 0;
+}
+
+.conteudo-cabecalho h1 {
+  line-height: 47px;
+  font-size: 36px;
+}
+
+.estilo-btn {
+  background-color: #D7D5FF;
+  color: #6C63FF;
+  border: none;
+  padding: 12px 45px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Lato';
+  border: 2px solid #6C63FF;
+  transition: .5s;
+}
+
+.estilo-btn:hover {
+  background-color: #6C63FF;
+  border: 2px solid #6C63FF;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.area-imagem {
+  max-width: 100%; 
+  display: block;
+}
+
+#img-logo {
+  width: 100%;
+  position: relative;
+  padding: 90px 0px;
+}
+
+.principal ul {
+  width: 75%;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 0;
+}
+
+.principal li {
+  width: 280px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.principal li:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.caixa-colorida {
+  height: 180px;
+  border-radius: 10px 10px 0 0;
+}
+
+.caixa-conteudo {
+  padding: 20px;
+}
+
+.caixa-conteudo h2 {
+  font-size: 20px;
+}
+
+.caixa-conteudo p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.rodape {
+  width: 100%;
+  background-color: #D7D5FF;
+}
+
+.campo-contato {
+  padding-bottom: 100px ;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: auto;
+  gap: 25px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Merriweather';
+  font-weight: 400;
+  padding: 100px 0;
+}
+
+input, textarea {
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+
