@@ -20,6 +20,7 @@ p {
 
 ul {
   list-style: none;
+  padding-inline-start: 0;
 }
 
 .cabecalho {
@@ -83,11 +84,12 @@ ul {
 }
 
 .principal ul {
-  width: 75%;
+  max-width: 1200px;
   margin: 100px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px 0;
+  justify-items: center;
 }
 
 .principal li {
