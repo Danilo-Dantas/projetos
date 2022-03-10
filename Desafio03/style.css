@@ -43,6 +43,7 @@ ul {
 .conteudo-cabecalho p {
   line-height: 32px;
   padding: 5px 0;
+  width: 40ch;
 }
 
 .conteudo-cabecalho h1 {
@@ -79,6 +80,7 @@ ul {
 
 #img-logo {
   width: 100%;
+  min-width: 220px;
   position: relative;
   padding: 90px 0px;
 }
@@ -150,3 +152,47 @@ input, textarea {
   border-radius: 10px;
 }
 
+@media screen and (max-width: 1140px) {
+  .caixa-cabecalho {
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+    font-size: 14px;
+    gap: 30px;
+  }
+  .conteudo-cabecalho h1 { 
+    font-size: 28px;
+  }
+
+  .campo-contato {
+    width: 75%;
+  }
+  
+  .conteudo-cabecalho p { 
+    font-size: 18px;
+    width: 30ch;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .principal ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .principal ul {
+    grid-template-columns: 1fr;
+  }
+  .caixa-cabecalho {
+    grid-template-columns: 1fr;
+  }
+
+  .conteudo-cabecalho h1 { 
+    font-size: 28px;
+  }
+
+  .conteudo-cabecalho {
+    padding-top: 20px;
+  }
+  
+}
