@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5 {
 .dados-login input {
   border: 2px solid #E8E8E8;
   border-radius: 5px;
-  width: 100%;
+  width: 90%;
   margin: 10px 0 20px 0;
   padding: 15px;
 }
@@ -91,29 +91,41 @@ h1,h2,h3,h4,h5 {
   font-family: 'Lato';
 }
 
-
-
 #btn-entrar {
   background-color: #04C35C;
-  color: #f9f9f9;
+  font-size: 16px;
   border: none;
   padding: 15px 0;
+  color: #f9f9f9;
   border-radius: 5px;
   font-weight: bold;
 }
 
 #btn-entrar:hover {
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: #04b053;
+  color: #f9f9f9;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .7);
   transition: .5s;
+  cursor: pointer;
 }
 
 #btn-entrar-google {
- background-color: #1A202C; 
- color: #f9f9f9;
- border: none;
- padding: 15px 0;
- border-radius: 5px;
- font-weight: bold;
+  background-color: #1A202C;
+  color: #f9f9f9;
+  border: none;
+  padding: 15px 0;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+#btn-entrar-google:hover {
+  background-color: #131821;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+  transition: .5s;
 }
 
 .rodape {
@@ -122,4 +134,20 @@ h1,h2,h3,h4,h5 {
   font-family: 'Lato';
   font-weight: 400;
   text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .principal {
+    grid-template-columns: 1fr;
+  }
+  .tela-esquerda {
+    display: none;
+  }
+  .tela-direita {
+    width: 100vw;
+  }
+  .rodape {
+    top: 30px;
+  }
+
 }
