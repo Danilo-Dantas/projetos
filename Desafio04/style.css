@@ -129,6 +129,7 @@ h1,h2,h3,h4,h5 {
 #btn-entrar-google:hover {
   background-color: #131821;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+  cursor: pointer;
   transition: .5s;
 }
 
