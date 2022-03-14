@@ -9,7 +9,7 @@ body {
 
 hr {
   border: 2px solid #19D3DA;
-  width: 15%;
+  width: 200px;
   margin: 0;
 }
 
@@ -42,6 +42,11 @@ hr {
   color: grey;
 }
 
+.titulo-principal h4 a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
 .conteudo-principal {
   width: 100%;
   margin: auto;
@@ -65,7 +70,7 @@ hr {
 
 
 .card:hover {
-  transition: .5s;
+  transition: .3s;
   box-shadow: 0 0 10px 0 rgba(255,255,255, 1);
   opacity: .6;
 }
@@ -73,7 +78,6 @@ hr {
 
 .card button {
   width: 100%;
-  background-color: #686D76;
   color: #19D3DA;
   font-weight: bold;
   font-size: 18px;
@@ -84,8 +88,34 @@ hr {
   transition: 1s;
 }
 
-.card button:hover {
-  box-shadow: 0 0 10px 0 rgba(255,255,255, 1);
-  transition: 1s;
-  cursor: pointer;
+
+@media screen and (max-width: 1550px) {
+  body {
+    width: 80%;
+  }
+
+  .campo-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    width: 80%;
+  }
+
+  .campo-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    width: 80%;
+  }
+
+  .campo-cards {
+    grid-template-columns: 1fr;
+    gap: 70px;
+  }
 }
