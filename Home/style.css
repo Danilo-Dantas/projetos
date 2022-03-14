@@ -1,43 +1,70 @@
 body {
-  background-color: #373A40;
+  background-color: #131313;
   font-family: 'Courier Prime';
   margin: 0;
-  width: 90%;
+  width: 80%;
   margin: auto;
-  color: #19D3DA;
+  color: #f9f9f9;
 }
 
 hr {
-  border: 1px solid #19D3DA;
+  border: 3px solid #19D3DA;
+  width: 70%;
+  margin: 0;
 }
 
-.texto-cabecalho h1 {
-  text-align: center;
-  font-size: 48px;
-  font-weight: bold;
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cabecalho ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 1.8rem;
+}
+
+.cabecalho h2 {
+  margin-bottom: 60px;
+}
+
+.cabecalho h4 a, .cabecalho i , .cabecalho h4 a:visited {
+  text-decoration: none;
+  color: #c4c4c4;
+}
+
+
+
+.cabecalho a:visited {
+  color: aliceblue;
+}
+
+.cabecalho a:hover {
+  color: grey;
 }
 
 .conteudo-principal {
-  width: 80%;
+  width: 100%;
   margin: 100px auto;
 }
 
 .campo-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 100px;
   justify-items: center;
 }
 
 .card img, .card {
-  width: 360px;
+  width: 100%;
   height: 240px;
   background-color: gray;
   border: 2px solid black;
 }
 
 .card button {
-  width: 363px;
+  width: 100%;
   background-color: #686D76;
   color: #19D3DA;
   font-weight: bold;
