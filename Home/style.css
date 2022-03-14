@@ -38,6 +38,10 @@ hr {
   color: #c4c4c4;
 }
 
+.cabecalho a {
+  color: #fff;
+}
+
 .cabecalho a:visited {
   color: aliceblue;
 }
