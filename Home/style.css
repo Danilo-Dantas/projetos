@@ -2,7 +2,7 @@ body {
   background-color: #131313;
   font-family: 'Courier Prime';
   color: #f9f9f9;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .container {
@@ -107,27 +107,33 @@ hr {
 
 
 @media screen and (max-width: 1550px) {
-  body {
+  .container {
     width: 80%;
   }
 
   .campo-cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  
 }
 
 @media screen and (max-width: 1200px) {
-  body {
+  .container {
     width: 80%;
   }
 
   .campo-cards {
     grid-template-columns: 1fr 1fr;
   }
+  .rodape {
+    position: absolute;
+    bottom: auto;
+    margin: 30px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 700px) {
-  body {
+  .container {
     width: 80%;
   }
 
