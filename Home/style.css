@@ -2,14 +2,14 @@ body {
   background-color: #131313;
   font-family: 'Courier Prime';
   margin: 0;
-  width: 80%;
-  margin: auto;
+  max-width: 1440px;
+  margin: auto; 
   color: #f9f9f9;
 }
 
 hr {
-  border: 3px solid #19D3DA;
-  width: 70%;
+  border: 2px solid #19D3DA;
+  width: 15%;
   margin: 0;
 }
 
@@ -29,12 +29,10 @@ hr {
   margin-bottom: 60px;
 }
 
-.cabecalho h4 a, .cabecalho i , .cabecalho h4 a:visited {
+.titulo-principal h4 a, .titulo-principal i , .titulo-principal h4 a:visited {
   text-decoration: none;
   color: #c4c4c4;
 }
-
-
 
 .cabecalho a:visited {
   color: aliceblue;
@@ -46,7 +44,7 @@ hr {
 
 .conteudo-principal {
   width: 100%;
-  margin: 100px auto;
+  margin: auto;
 }
 
 .campo-cards {
@@ -59,9 +57,19 @@ hr {
 .card img, .card {
   width: 100%;
   height: 240px;
-  background-color: gray;
-  border: 2px solid black;
+  border: 1px solid gray;
+  border-radius: 5px;
+  object-position: top;
+  object-fit: cover;
 }
+
+
+.card:hover {
+  transition: .5s;
+  box-shadow: 0 0 10px 0 rgba(255,255,255, 1);
+  opacity: .6;
+}
+
 
 .card button {
   width: 100%;
