@@ -26,25 +26,26 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 100px;
+  justify-items: center;
 }
 
 .card img, .card {
-  width: 270px;
+  width: 360px;
   height: 240px;
   background-color: gray;
   border: 2px solid black;
 }
 
 .card button {
-  width: 274px;
+  width: 363px;
   background-color: #686D76;
   color: #19D3DA;
   font-weight: bold;
   font-size: 18px;
   border: 2px solid black;
   font-family: 'Courier New', Courier, monospace;
-  padding: 10px 0;
-  margin: 10px 0;
+  padding: 15px 0;
+  margin: 15px 0;
   transition: 1s;
 }
 
