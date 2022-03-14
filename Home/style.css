@@ -5,6 +5,7 @@ body {
   margin: 0 auto;
 }
 
+
 .container {
   max-width: 1440px;
   margin: auto; 
@@ -15,6 +16,7 @@ hr {
   width: 200px;
   margin: 0;
 }
+
 
 .cabecalho {
   display: flex;
@@ -71,12 +73,12 @@ hr {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 70px;
   justify-items: center;
+  margin-bottom: 80px;
 }
 
 .card img, .card {
   width: 100%;
   height: 240px;
-  border: 1px solid gray;
   border-radius: 5px;
   object-position: top;
   object-fit: cover;
@@ -85,14 +87,24 @@ hr {
   justify-content: center;
 }
 
+.card img {
+  border: 1px solid gray;
+}
+
 .card img:hover {
-  opacity: 30%;
+  opacity: 25%;
 }
 
 .card:hover {
   transition: .3s;
   box-shadow: 0 0 10px 0 rgba(255,255,255, 1);
   background-color: #19D3DA ;
+}
+
+.card-origamid {
+  transition: .3s;
+  box-shadow: 0 0 10px 0 rgba(255,255,255, 1);
+  background-color: #9B30F9 ;
 }
 
 .card:hover h3 {
@@ -111,9 +123,9 @@ hr {
 .rodape {
   background-color: #050505;
   width: 100%;
+  margin: 40px 0;
   text-align: center;
   position: absolute;
-  bottom: 0;
 }
 
 .texto-rodape h4 {
@@ -146,6 +158,9 @@ hr {
     bottom: auto;
     margin: 30px 0 0 0;
   }
+  .card {
+    max-width: 360px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -159,10 +174,11 @@ hr {
   }
   
   .card {
-    max-width: 400px;
+    max-width: 380px;
   }
   .titulo-principal  h1{
     font-size: 1.4em;
+    text-align: center;
   }
   hr {
     width: 100%;
