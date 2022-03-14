@@ -56,6 +56,12 @@ h1 {
 
 #img-principal {
   width: 500px;
+  transition: 2s;
+}
+
+#img-principal:hover {
+  width:535px;
+  transition: 2s;
 }
 
 
@@ -79,11 +85,6 @@ h1 {
 @media screen and (max-width:700px) {
   body {
     width: 75%;
-  }
-  
-  #img-logo {
-    width: 42%;
-    height: auto;
   }
 
   #img-logo {
