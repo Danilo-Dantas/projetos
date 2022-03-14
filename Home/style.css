@@ -55,7 +55,7 @@ hr {
 .campo-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 100px;
+  gap: 70px;
   justify-items: center;
 }
 
@@ -109,13 +109,17 @@ hr {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
   body {
     width: 80%;
   }
 
   .campo-cards {
     grid-template-columns: 1fr;
-    gap: 70px;
+    gap: 50px;
+  }
+  
+  .card {
+    max-width: 400px;
   }
 }
