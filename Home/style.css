@@ -1,1 +1,55 @@
-Courier New
+body {
+  background-color: #373A40;
+  font-family: 'Courier Prime';
+  margin: 0;
+  width: 90%;
+  margin: auto;
+  color: #19D3DA;
+}
+
+hr {
+  border: 1px solid #19D3DA;
+}
+
+.texto-cabecalho h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.conteudo-principal {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.campo-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+
+.card img, .card {
+  width: 270px;
+  height: 240px;
+  background-color: gray;
+  border: 2px solid black;
+}
+
+.card button {
+  width: 274px;
+  background-color: #686D76;
+  color: #19D3DA;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px 0;
+  margin: 10px 0;
+  transition: 1s;
+}
+
+.card button:hover {
+  box-shadow: 0 0 10px 0 rgba(255,255,255, 1);
+  transition: 1s;
+  cursor: pointer;
+}
