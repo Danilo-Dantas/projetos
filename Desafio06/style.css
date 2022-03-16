@@ -30,6 +30,8 @@ body {
   grid-template-columns: 1fr 3fr;
   padding-top: 120px;
   align-items: center;
+  max-width: 1040px;
+  margin: auto;
 }
 
 .campo-img img {
@@ -44,6 +46,11 @@ body {
 .campo-detalhe {
   display: flex;
   justify-content: space-between;
+}
+
+.campo-btn {
+  display: flex;
+  gap: 25px;
 }
 
 #btn-assistir {
