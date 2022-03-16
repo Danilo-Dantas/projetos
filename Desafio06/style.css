@@ -35,12 +35,13 @@ body {
 }
 
 .campo-img img {
-  height: 267px;
+  height: 280px;
 }
 
 .campo-descricao p {
   font-size: 20px;
   line-height: 32px;
+  margin: 0 0 20px 0;
 }
 
 .campo-detalhe {
@@ -51,6 +52,12 @@ body {
 .campo-btn {
   display: flex;
   gap: 25px;
+}
+
+.campo-btn button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
+  transition: .3s;
 }
 
 #btn-assistir {
@@ -75,4 +82,45 @@ body {
   text-transform: uppercase;
   border: 1px solid #f9f9f9;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    height: auto;
+    background-attachment: fixed;
+  }
+
+  .texto-topo h1 {
+    margin: 20px;
+  }
+
+  .campo-img {
+    display: none;
+  }
+
+  .campo-detalhe {
+    align-items: center;
+  }
+
+  .campo-detalhe h3 {
+    font-size: 16px;
+  }
+
+  .conteudo-principal {
+    padding: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .campo-avaliacao {
+    padding-left: 2px;
+  }
+
+  .campo-avaliacao img {
+    width: 12%;
+  }
+
+  #btn-trailer, #btn-assistir {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
 }
