@@ -130,5 +130,39 @@ ul {
 
 
 @media screen and (max-width:900px) {
-  
+  .campo-banner {
+    display: none;
+  }
+  .principal {
+    display: block;
+  }
+  .lista-personagens ul {
+    justify-content: space-around;
+  }
+  .titulo-personagens h1 {
+    text-align: center;
+  }
+  .campo-personagens {
+    padding: 120px 0;
+  }
+  .circle2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .lista-personagens ul {
+    display: block;
+    max-width: 200px;
+    margin: auto;
+  }
+  .campo-personagens {
+    padding: 20px 0;
+  }
+
+  .rodape {
+    position: absolute;
+    padding: 25px 0;
+  }
+
 }
