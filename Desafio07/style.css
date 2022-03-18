@@ -86,10 +86,6 @@ ul {
   bottom: 0;
 }
 
-#banner {
-
-}
-
 .campo-personagens {
   padding: 120px 0;
 }
@@ -120,4 +116,19 @@ ul {
   gap: 40px;
   bottom: 0;
   position: absolute;
+}
+
+@media screen and (max-width: 1200px) {
+  #banner {
+    width: 100%;
+  }
+
+  .lista-personagens img {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:900px) {
+  
 }
