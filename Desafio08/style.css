@@ -10,6 +10,16 @@ h1,h2,h3,h4 {
   font-family: 'Sen';
 }
 
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 10px 0 rgba(102, 16, 242, 1);
+  transition: .3s;
+
+}
+
 .container {
   max-width: 1140px;
   width: 60%;
@@ -20,7 +30,7 @@ h1,h2,h3,h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 15px;
+  padding: 20px 0;
 }
 
 .campo-inputs {
@@ -43,7 +53,6 @@ h1,h2,h3,h4 {
   border-radius: 100px;
   background-color: #FFFFFF;
   padding: 10px;
-  margin-top: 3px;
 }
 
 .btn-login {
@@ -70,6 +79,9 @@ h1,h2,h3,h4 {
 
 .principal h1 {
   font-size: 72px ;
+  width: 20ch;
+  margin: auto;
+  padding: 0 0 40px 0;
 }
 
 .btn-emoji {
@@ -108,11 +120,12 @@ h1,h2,h3,h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #FFFFFF;
-  height: 250px;
+  height: 200px;
   max-width: 1140px;
   width: 60%;
   position: absolute;
   bottom: 0;
+  color: #2F2F2F  ;
 }
 
 .rodape h3 {
@@ -120,8 +133,22 @@ h1,h2,h3,h4 {
   padding: 0 0 0 15px;
   line-height: 30px;
   transition: .5s;
+  text-transform: uppercase;
+  color: #2F2F2F;
+  font-weight: 400;
 }
-.rodape h3:hover {
+.rodape .blocos-rodape:hover h3 {
   border-left: 10px solid #6610F2;
   transition: .5s;
 }
+
+.rodape p {
+  font-style: italic;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.blocos-rodape {
+  padding: 30px 100px 0 100px;
+}
+
