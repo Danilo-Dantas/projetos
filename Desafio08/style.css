@@ -1,0 +1,60 @@
+body {
+  background-color: #F9F9F9;
+  margin: 0;
+}
+
+h1,h2,h3 {
+  font-family: 'Sen';
+}
+
+.container {
+  max-width: 1440px;
+  width: 60%;
+  margin: auto;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.campo-inputs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.campo-pesquisa input {
+  border: none;
+  background-color: transparent;
+}
+
+.campo-pesquisa input:focus-visible {
+  outline: none;
+}
+
+.campo-pesquisa {
+  background-color: ;
+}
+
+.icon-pesquisa {
+  border: 2px solid #EAEAEA;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-top: 3px;
+}
+
+.btn-login {
+  border: 2px solid #EAEAEA;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  padding: 10px 35px;
+  color: #2F2F2F;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
