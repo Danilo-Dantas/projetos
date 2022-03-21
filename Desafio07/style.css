@@ -50,7 +50,7 @@ ul {
 
 .container {
   max-width: 1440px;
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
@@ -82,8 +82,10 @@ ul {
   align-items: center;
 }
 
-.campo-banner {
+#banner {
+  position: absolute;
   bottom: 0;
+  right: 0;
 }
 
 .campo-personagens {
@@ -107,6 +109,7 @@ ul {
   z-index: 2;
   position: relative;
   padding: 8px 0 0 8px;
+  transition: .3s;
 }
 
 .lista-personagens li {
@@ -118,26 +121,21 @@ ul {
   letter-spacing: .9px;
 }
 
+.lista-img:hover {
+  padding: 0 8px 8px 0;
+  transition: .3s;
+}
+
 .rodape {
+  position: absolute;
+  bottom: 0;
+  padding: 25px 0;
   display: flex;
   gap: 40px;
 }
 
-@media screen and (max-width: 1200px) {
-  #banner {
-    width: 100%;
-    min-width: 300px;
-  }
 
-  .rodape {
-    position: absolute;
-    bottom: 0;
-    padding: 25px 0;
-  }
-}
-
-
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
   .campo-banner {
     display: none;
   }
