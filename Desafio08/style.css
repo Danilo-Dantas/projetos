@@ -39,8 +39,7 @@ button:hover {
 
 .bloco-emoji1 {
   position: absolute;
-  padding: 140px 100px 0 0;
-  left: 260px;
+  left: -95px;
 }
 
 .img-emoji2 {
@@ -54,8 +53,7 @@ button:hover {
 
 .bloco-emoji2 {
   position: absolute;
-  padding: 100px 0 0 100px;
-  right: 420px;
+  right: 150px;
 }
 
 /* FIM EMOJIS SAFADOS */
@@ -103,6 +101,7 @@ button:hover {
 
 .principal {
   text-align: center;
+  position: relative;
 }
 
 .principal h4 {
