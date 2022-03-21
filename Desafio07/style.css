@@ -96,10 +96,17 @@ ul {
   padding: 0;
 }
 
-.lista-personagens img {
-  border: 1px solid #ffffff;
-  background-color:#FF4656;
-  border-radius: 200px/200px 0 0 0;
+.borda {
+  z-index: 1;
+  position: absolute;
+ 
+}
+
+.lista-img {
+  border: none;
+  z-index: 2;
+  position: relative;
+  padding: 8px 0 0 8px;
 }
 
 .lista-personagens li {
@@ -119,11 +126,9 @@ ul {
 @media screen and (max-width: 1200px) {
   #banner {
     width: 100%;
+    min-width: 300px;
   }
 
-  .lista-personagens img {
-    width: 100%;
-  }
   .rodape {
     position: absolute;
     bottom: 0;
