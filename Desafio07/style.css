@@ -111,11 +111,9 @@ ul {
   letter-spacing: .9px;
 }
 
-.rodape ul {
+.rodape {
   display: flex;
   gap: 40px;
-  bottom: 0;
-  position: absolute;
 }
 
 @media screen and (max-width: 1200px) {
@@ -125,6 +123,11 @@ ul {
 
   .lista-personagens img {
     width: 100%;
+  }
+  .rodape {
+    position: absolute;
+    bottom: 0;
+    padding: 25px 0;
   }
 }
 
@@ -161,8 +164,10 @@ ul {
   }
 
   .rodape {
-    position: absolute;
     padding: 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
   }
 
 }
