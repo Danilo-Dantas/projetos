@@ -1,14 +1,17 @@
 body {
   background-color: #F9F9F9;
   margin: 0;
+  height: 100vh;
+  padding: 0;
+  position: relative;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
   font-family: 'Sen';
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1140px;
   width: 60%;
   margin: auto;
 }
@@ -35,10 +38,6 @@ h1,h2,h3 {
   outline: none;
 }
 
-.campo-pesquisa {
-  background-color: ;
-}
-
 .icon-pesquisa {
   border: 2px solid #EAEAEA;
   border-radius: 100px;
@@ -57,4 +56,72 @@ h1,h2,h3 {
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.principal {
+  text-align: center;
+}
+
+.principal h4 {
+  font-size: 18px ;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.principal h1 {
+  font-size: 72px ;
+}
+
+.btn-emoji {
+  color: #F9F9F9;
+  background-color: #6610F2;
+  padding: 15px 40px 15px 40px;
+  border: none;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.btn-biblioteca {
+  border: 2px solid #EAEAEA;
+  background-color: #FFFFFF;
+  color: #2F2F2F;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight:600;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: 'Inter';
+  width: 250px;
+}
+
+.campo-btns {
+  display: inline-flex;
+  gap: 60px;
+  margin: auto;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #FFFFFF;
+  height: 250px;
+  max-width: 1140px;
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+}
+
+.rodape h3 {
+  border-left: 3px solid #6610F2;
+  padding: 0 0 0 15px;
+  line-height: 30px;
+  transition: .5s;
+}
+.rodape h3:hover {
+  border-left: 10px solid #6610F2;
+  transition: .5s;
 }
