@@ -242,5 +242,79 @@ button:hover {
 }
 
 @media screen and (max-width:1180px) {
-  
+  .bloco-emoji1, .bloco-emoji2, .bloco-emoji3, .bloco-emoji4, .bloco-emoji5 {
+    display: none;
+  }
+  .rodape {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .campo-btns {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) { 
+  .campo-btns {
+    display: block;
+  }
+  .btn-biblioteca {
+    margin-top: 10px;
+  }
+  .principal h1 {
+    width: auto;
+  }
+  .blocos-rodape {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .campo-btns {
+    display: block;
+    gap: 20px;
+  }
+  .btn-biblioteca, .btn-emoji {
+    width: auto;
+  }
+  .btn-biblioteca {
+    margin-top: 10px; 
+    padding: 10px 10px;
+  }
+  .principal {
+    padding: 0 0 50px 0;
+  }
+  .principal h1 {
+    font-size: 30px;
+    width: auto;
+  }
+  .blocos-rodape {
+    padding: 0;
+  }
+  .cabecalho h3 {
+    text-align: center;
+  }
+  .cabecalho {
+    display: block;
+    padding: 0;
+  }
+  .btn-login {
+    padding: 10px 20px;
+    margin-bottom: 3px;
+  }
+  .campo-inputs {
+    justify-content: center;
+  }
+  .blocos-rodape p {
+    font-size: 12px;
+  }
+  .blocos-rodape h3 {
+    line-height: 5px;
+    font-size: 16px;
+  }
+  .container {
+    height: 100vh;
+    justify-content: space-between;
+  }
+
 }
