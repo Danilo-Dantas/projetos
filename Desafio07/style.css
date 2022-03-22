@@ -48,6 +48,10 @@ ul {
   height: 45px;
 }
 
+#logo-riot {
+  width: 125px;
+}
+
 .container {
   max-width: 2040px;
   width: 90%;
@@ -59,6 +63,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   color: white;
+  margin-top: 15px;
 }
 
 .cabecalho h3 {
@@ -133,6 +138,7 @@ ul {
   display: flex;
   gap: 40px;
 }
+
 
 
 @media screen and (max-width:1200px) {
