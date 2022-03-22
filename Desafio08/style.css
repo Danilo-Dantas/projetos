@@ -30,30 +30,85 @@ button:hover {
 
 .img-emoji1 {
   position: absolute;
-  padding: 65px;
+  padding: 40px;
+  width: 120px;
 }
 
 .form1 {
   position: absolute  ;
+  width: 200px;
 }
 
 .bloco-emoji1 {
   position: absolute;
-  left: -95px;
+  left: -55px;
 }
 
 .img-emoji2 {
   position: absolute;
-  padding: 30px;
+  padding: 20px;
+  width: 120px;
 }
 
 .form2 {
   position: absolute  ;
+  width: 160px;
 }
 
 .bloco-emoji2 {
   position: absolute;
   right: 150px;
+}
+
+.img-emoji3 {
+  position: absolute;
+  padding: 20px;
+  width: 120px;
+}
+
+.form3 {
+  position: absolute  ;
+  width: 160px;
+}
+
+.bloco-emoji3 {
+  position: absolute;
+  left: -20px;
+  bottom: 200px;
+}
+
+.img-emoji4 {
+  position: absolute;
+  padding: 16px;
+  width: 130px;
+}
+
+.form4 {
+  position: absolute  ;
+  width: 160px;
+}
+
+.bloco-emoji4 {
+  position: absolute;
+  right: 100px;
+  bottom: 280px;
+}
+
+.img-emoji5 {
+  position: absolute;
+  padding: 16px;
+  width: 120px;
+}
+
+.form5 {
+  position: absolute  ;
+  width: 160px;
+}
+
+.bloco-emoji5 {
+  position: absolute;
+  right: 440px;
+  bottom: 160px;
 }
 
 /* FIM EMOJIS SAFADOS */
@@ -102,6 +157,7 @@ button:hover {
 .principal {
   text-align: center;
   position: relative;
+  padding: 0 0 200px 0;
 }
 
 .principal h4 {
@@ -111,7 +167,7 @@ button:hover {
 }
 
 .principal h1 {
-  font-size: 65px;
+  font-size: 55px;
   width: 15ch;
   margin: auto;
   padding: 0 0 40px 0;
@@ -120,7 +176,7 @@ button:hover {
 .btn-emoji {
   color: #F9F9F9;
   background-color: #6610F2;
-  padding: 15px 40px 15px 40px;
+  padding: 10px 20px;
   border: none;
   font-family: 'Inter';
   font-size: 20px;
@@ -134,7 +190,7 @@ button:hover {
   border: 2px solid #EAEAEA;
   background-color: #FFFFFF;
   color: #2F2F2F;
-  padding: 15px 0;
+  padding: 10px 0;
   font-size: 20px;
   font-weight:600;
   border-radius: 10px;
@@ -182,6 +238,9 @@ button:hover {
 }
 
 .blocos-rodape {
-  padding: 30px 100px 0 100px;
+  padding: 20px 100px 0 100px;
 }
 
+@media screen and (max-width:1180px) {
+  
+}
