@@ -1,0 +1,220 @@
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navegacao {
+  background-color: black;
+  padding-bottom: 50px;
+  padding-left: 25%;
+}
+
+.imgLogo {
+  width: 300px;
+  height: 125px;
+  margin-left: 32%;
+  padding: 25px;
+  box-sizing: unset;
+}
+
+header {
+  background: black;
+  padding: 20px 0;
+}
+
+.caixa {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  margin-left: 10px;
+  color: #c78c19;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.caixa-mapa {
+  width: 880px;
+  position: relative;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.mapa {
+  margin-top: 50px;
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
+}
+
+main {
+  background-image: url("../img/ghost-city.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.principal {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.zumbiDance {
+  width: 49.6%;
+  height: 25%;
+}
+
+footer {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background: url("bg.jpg");
+  padding: 20px;
+  background-color: black;
+}
+
+.copyright {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.imgFooter {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  margin-top: 25px;
+  border-radius: 40px;
+}
+
+.itens {
+  padding: 10%;
+  display: inline;
+}
+
+.imgItens {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  height: 250px;
+}
+
+.imgItens:hover {
+  opacity: 0.4;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 1300px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
